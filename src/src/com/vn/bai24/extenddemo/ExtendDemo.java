@@ -7,6 +7,11 @@ package com.vn.bai24.extenddemo;
  * Neu giua 2 class va interface thua ke dung implements
  */
 public class ExtendDemo {
+    public static void main(String[] args) {
+        ReferentBook book = new ReferentBook();
+        book.show();
+        book.move();
+    }
 }
 
 interface Document {
@@ -15,21 +20,23 @@ interface Document {
 
 //don thua ke
 interface ReferentDoc extends Document {
-
+    void show();
 }
 
 class Book implements Document {
+
     public void show() {
+
+    }
+
+
+    public void move(){
 
     }
 }
 
 class Paper implements Document {
     public void show() {
-
-    }
-
-    public void move(){
 
     }
 }
