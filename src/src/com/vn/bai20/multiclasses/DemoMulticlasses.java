@@ -19,6 +19,7 @@ public class DemoMulticlasses {
         System.out.println("a2: " + a2.getName());
 
         B b1 = new B();
+        System.out.println("b1: ");
     }
 }
 
