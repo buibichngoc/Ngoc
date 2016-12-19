@@ -34,7 +34,7 @@ interface BanhU {
 abstract class Beo {
     private  String name;
     public abstract void move(); // mot la kthuc = ;
-    public abstract void ngocjava { // hai la kthuc = {}
+/*    public abstract void ngocjava { // hai la kthuc = {}
 
-    }
+    }*/
 }
